@@ -1,6 +1,8 @@
 package WEEK2;
 
 public class Buku02 {
+   
+        
     
 
         String judul, pengarang;
@@ -29,6 +31,20 @@ public class Buku02 {
             harga = hrg;
 
         }
+
+        public Buku02() {
+            
+        }
+
+        public Buku02(String jud, String pg, int hal, int stok, int har) {
+            judul = jud;
+            pengarang = pg;
+            halaman = hal;
+            this.stok = stok;
+            harga = har;
+        }
+
+        
 
     }
     
